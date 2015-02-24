@@ -58,8 +58,8 @@ def random_crops(X, crop_shape):
   #############################################################################
 
   for i in xrange(N):
-    x0 = (W - WW) * random.random()
-    y0 = (H - HH) * random.random()
+    x0 = random.randint(0, W - WW - 1)
+    y0 = random.randint(0, H - HH - 1)
     x1 = x0 + WW
     y1 = y0 + HH
 
