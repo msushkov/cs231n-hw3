@@ -395,6 +395,9 @@ def five_layer_convnet(X, model, y=None, reg=0.0, dropout=1.0,
     # TODO: Return the gradient of the loss with respect to the input.        #
     # HINT: This should be VERY simple!                                       #
     ###########################################################################
+    
+    return _
+    
     ###########################################################################
     #                         END OF YOUR CODE                                #  
     ###########################################################################
